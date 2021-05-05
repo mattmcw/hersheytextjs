@@ -1,7 +1,7 @@
  // In a normal app, this would simply by "require('hersheytext');"
 const hersheyText = require('./lib/hersheytext');
 
-const svgText = hersheyText.renderMultilineSVG('Hello\nTest', {
+const svgText = hersheyText.renderTextSVG('Hello\nTest', {
   id: 'mytext',
   font: 'ems_allure',
   charWidth: 1,
